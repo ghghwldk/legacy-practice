@@ -1,4 +1,4 @@
-package com.example.legacyproject.controller;
+package com.example.legacyproject.dto;
 
 public class Board {
     private int idx;

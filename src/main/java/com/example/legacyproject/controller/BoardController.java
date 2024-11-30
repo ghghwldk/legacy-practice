@@ -1,6 +1,7 @@
 package com.example.legacyproject.controller;
 
 
+import com.example.legacyproject.dto.Board;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,7 +26,6 @@ public class BoardController {
 
         model.addAttribute("list", list); //모델에 넣기
 
-        return "boardList";  //뷰의 논리적 이름
+        return "boardList.jsp";  //뷰의 논리적 이름
     }
-
 }
