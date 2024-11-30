@@ -2,7 +2,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <div>
   <h1>
-    if and for
+    for_of_jsp
   </h1>
   <c:forEach var="day" begin="1" end="7">
     <c:choose>

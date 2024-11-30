@@ -24,7 +24,8 @@
     <jsp:include page="test-piece/_1_scriptlet.jsp" />
     <jsp:include page="test-piece/_2_declaration.jsp" />
     <jsp:include page="test-piece/_3_expression.jsp" />
-    <jsp:include page="test-piece/_4_if_and_for.jsp" />
-    <jsp:include page="test-piece/_5_if.jsp" />
+    <jsp:include page="test-piece/_4_for_of_jsp.jsp" />
+    <jsp:include page="test-piece/_5_for_of_java.jsp" />
+    <jsp:include page="test-piece/_6_only_if_of_java.jsp" />
   </div>
 </body>
