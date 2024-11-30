@@ -3,6 +3,9 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+# Compiled class file
+*.class
+
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
@@ -20,6 +23,10 @@ target/
 .settings
 .springBeans
 .sts4-cache
+.c9/
+*.launch
+.settings/
+
 
 ### NetBeans ###
 /nbproject/private/
@@ -36,3 +43,50 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+
+############################################################# belows : additional gitignore options
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Java Virtual Machine crash logs
+hs_err_pid*
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+out/
+
+# Mac OS specific
+.DS_Store
+
+# Maven specific
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Gradle specific
+.gradle/
+build/
+
+# Other files
+*.swp
