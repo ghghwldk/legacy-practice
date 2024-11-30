@@ -9,9 +9,4 @@ public class HomeController {
     public String home() {
         return "home.jsp";
     }
-
-    @RequestMapping("/javaCodeTestController")
-    public String javaCodeTest() {
-        return "/java-code-test/test-variable.jsp";
-    }
 }
