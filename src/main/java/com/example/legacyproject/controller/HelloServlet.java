@@ -13,6 +13,11 @@ public class HelloServlet extends HttpServlet{
         message = "Hello World";
     }
 
+//    @Override
+//    public void service(HttpServletRequest request, HttpServletResponse response) throws IOException {
+//        doGet(request, response);
+//    }
+
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
 //        response.setContentType("text/html; charset=UTF-8");
